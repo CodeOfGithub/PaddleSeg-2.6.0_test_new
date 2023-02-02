@@ -1,0 +1,16 @@
+auto_tuned_shape_file: auto_tune_tmp.pbtxt
+batch_size: 1
+benchmark: False
+cfg: output/infer_model/deploy.yaml
+cpu_threads: 10
+device: gpu
+enable_auto_tune: False
+enable_mkldnn: False
+image_path: data/dataimage_data/1.png
+min_subgraph_size: 3
+model_name: ''
+precision: fp32
+print_detail: True
+save_dir: ./output
+use_trt: False
+with_argmax: False
